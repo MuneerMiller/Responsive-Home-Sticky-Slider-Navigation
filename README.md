@@ -36,13 +36,15 @@ A responsive sticky slider navigation bar that highlights the active tab as you 
 
 ## File Structure
 
+```bash
 .
 ├── index.html          # Main HTML file
 ├── assets/
 │   ├── styles/
 │   │   └── style.css   # CSS for styling
 │   ├── scripts/
-│   │   └── script.js   # JavaScript for navigation functionality
+│       └── script.js   # JavaScript for navigation functionality
+```
 
 
 ---
