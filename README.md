@@ -60,5 +60,5 @@ A responsive sticky slider navigation bar that highlights the active tab as you 
   OR 
 
   3. Click on the live application link below:
-  [Live application]([URL](https://muneermiller.github.io/Responsive-Home-Sticky-Slider-Navigation/))
+  [Live application](https://muneermiller.github.io/Responsive-Home-Sticky-Slider-Navigation/)
 
