@@ -1,0 +1,2 @@
+# Home Sticky Slider Navigation (Responsive)
+  This code implements a sticky slider navigation bar that remains at the top of the viewport as you scroll. It features smooth scrolling to different sections of the page when a tab is clicked and highlights the currently active tab with a sliding indicator. The navigation bar becomes fixed to the top of the screen when the user scrolls past its initial position, enhancing usability and providing a visually engaging way to navigate between sections.
