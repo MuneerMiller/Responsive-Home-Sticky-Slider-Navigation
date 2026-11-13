@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sticky Slider Navigation</title>
+  <meta name="description" content="A tab bar that sticks to the top of the page, smooth-scrolls to each section and slides an indicator under the active tab.">
   <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
@@ -11,38 +12,38 @@
   <!-- Hero -->
   <section class="et-hero-tabs">
     <h1>STICKY SLIDER NAV</h1>
-    <h3>Sliding content with sticky tab nav</h3>
-    <div class="et-hero-tabs-container">
+    <p class="et-subtitle">Sliding content with sticky tab nav</p>
+    <nav class="et-hero-tabs-container" aria-label="Sections">
       <a class="et-hero-tab" href="#tab-es6">ES6</a>
       <a class="et-hero-tab" href="#tab-flexbox">Flexbox</a>
       <a class="et-hero-tab" href="#tab-react">React</a>
       <a class="et-hero-tab" href="#tab-angular">Angular</a>
       <a class="et-hero-tab" href="#tab-other">Other</a>
-      <span class="et-hero-tab-slider"></span>
-    </div>
+      <span class="et-hero-tab-slider" aria-hidden="true"></span>
+    </nav>
   </section>
 
   <!-- Main -->
   <main class="et-main">
     <section class="et-slide" id="tab-es6">
-      <h1>ES6</h1>
-      <h3>Something about ES6</h3>
+      <h2>ES6</h2>
+      <p class="et-subtitle">Something about ES6</p>
     </section>
     <section class="et-slide" id="tab-flexbox">
-      <h1>Flexbox</h1>
-      <h3>Something about Flexbox</h3>
+      <h2>Flexbox</h2>
+      <p class="et-subtitle">Something about Flexbox</p>
     </section>
     <section class="et-slide" id="tab-react">
-      <h1>React</h1>
-      <h3>Something about React</h3>
+      <h2>React</h2>
+      <p class="et-subtitle">Something about React</p>
     </section>
     <section class="et-slide" id="tab-angular">
-      <h1>Angular</h1>
-      <h3>Something about Angular</h3>
+      <h2>Angular</h2>
+      <p class="et-subtitle">Something about Angular</p>
     </section>
     <section class="et-slide" id="tab-other">
-      <h1>Other</h1>
-      <h3>Something about Other</h3>
+      <h2>Other</h2>
+      <p class="et-subtitle">Something about Other</p>
     </section>
   </main>
 

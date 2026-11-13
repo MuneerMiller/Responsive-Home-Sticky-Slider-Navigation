@@ -14,6 +14,8 @@ A responsive sticky slider navigation bar that highlights the active tab as you 
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Usage](#usage)
+- [Accessibility](#accessibility)
+- [Credits](#credits)
 - [Licence](#licence)
 
 ---
@@ -25,6 +27,7 @@ A responsive sticky slider navigation bar that highlights the active tab as you 
 - **Dynamic Active Tab Highlight**: Highlights the active tab with a slider animation.
 - **Responsive Design**: Fully functional across different screen sizes.
 - **Lightweight Dependencies**: Uses jQuery for DOM manipulation.
+- **Shareable Links**: Clicking a tab updates the address bar, and opening a link to a section sets the bar and indicator straight away.
 
 ---
 
@@ -72,6 +75,20 @@ Or skip the setup and open the [live demo](https://muneermiller.github.io/Respon
 
 ---
 
+## Accessibility
+
+- The tabs sit in a `<nav>` landmark, and the tab for the section on screen is marked with `aria-current`, so screen readers announce where you are.
+- Tabs show a clear focus outline when you move through them with the keyboard.
+- Smooth scrolling and the sliding indicator are switched off for people who prefer reduced motion.
+
+---
+
+## Credits
+
+Based on the [Sticky Slider Nav](https://codepen.io/ettrics) pen by **Ettrics** on CodePen. I rebuilt it as a standalone project and added the accessibility, reduced-motion and shareable-link improvements above.
+
+---
+
 ## Licence
 
-Copyright © 2026 Mogamat Muneer Miller. All rights reserved. The code is public so you can read it and learn from it, but it is not open source. See [LICENSE](LICENSE) for what you may and may not do.
+MIT, like the original CodePen. See [LICENSE](LICENSE).
