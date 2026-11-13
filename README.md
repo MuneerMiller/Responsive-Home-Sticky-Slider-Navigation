@@ -2,6 +2,8 @@
 
 A responsive sticky slider navigation bar that highlights the active tab as you scroll through different sections. This project demonstrates a smooth navigation experience with dynamic styling using HTML, CSS, and JavaScript.
 
+**[▶ View the live demo](https://muneermiller.github.io/Responsive-Home-Sticky-Slider-Navigation/)**
+
 ---
 
 ## Table of Contents
@@ -12,6 +14,7 @@ A responsive sticky slider navigation bar that highlights the active tab as you 
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Usage](#usage)
+- [Licence](#licence)
 
 ---
 
@@ -51,16 +54,24 @@ A responsive sticky slider navigation bar that highlights the active tab as you 
 
 ## Getting Started
 
-  ### Installation
+### Installation
 
-  1. Clone the repository:
+1. Clone the repository:
+
    ```bash
-   https://github.com/MuneerMiller/Responsive-Home-Sticky-Slider-Navigation.git
+   git clone https://github.com/MuneerMiller/Responsive-Home-Sticky-Slider-Navigation.git
    ```
-  2. Navigate to the project directory where the project was cloned:
-  
-  OR 
 
-  3. Click on the live application link below:
-  [Live application](https://muneermiller.github.io/Responsive-Home-Sticky-Slider-Navigation/)
+2. Open `index.html` in your browser. There is nothing to install or build.
 
+### Usage
+
+Scroll down the page and the navigation bar sticks to the top, with the slider following the section you are in. Click a tab to scroll smoothly to its section.
+
+Or skip the setup and open the [live demo](https://muneermiller.github.io/Responsive-Home-Sticky-Slider-Navigation/).
+
+---
+
+## Licence
+
+Copyright © 2026 Mogamat Muneer Miller. All rights reserved. The code is public so you can read it and learn from it, but it is not open source. See [LICENSE](LICENSE) for what you may and may not do.
